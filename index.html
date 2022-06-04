@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+<body>
+    <div class="container p-3 d-flex flex-column align-items-center">
+        <div class="h1">Calculator</div>
+        <div class="row w-50 h-100">
+                <div id="textbox" class="col-9 border border-2 border-dark p-0 rounded bg-white"></div>
+                <div class="col-3 p-0"><button id="clear" class="btn btn-primary border-2 border-dark">Clear</button></div>
+                <div class="col-9">
+                    <div id="numpad" class="row h-100">
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">1</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">2</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">3</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">4</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">5</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">6</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">7</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">8</button></div>
+                        <div class="col-4 p-0"><button class="btn btn-primary border-2 border-dark">9</button></div>
+                    </div> 
+                </div>
+                <div class="col-3">
+                    <div class="row h-100">
+                        <div class="col-6 p-0"><button id="add" class="btn btn-primary border-2 border-dark">+</button></div>
+                        <div class="col-6 p-0"><button id="sub" class="btn btn-primary border-2 border-dark">-</button></div>
+                        <div class="col-6 p-0"><button id="divide" class="btn btn-primary border-2 border-dark">/</button></div>
+                        <div class="col-6 p-0"><button id="mul" class="btn btn-primary border-2 border-dark">X</button></div>
+                        <div class="col-6 p-0"><button id="back" class="btn btn-primary border-2 border-dark"><--</button></div>
+                        <div class="col-6 p-0"><button id="equalTo" class="btn btn-primary border-2 border-dark">=</button></div>
+                    </div>
+                </div>      
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
